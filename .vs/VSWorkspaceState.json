@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\UserApiApplication",
+    "\\UserApiApplication\\Controllers",
+    "\\Website",
+    "\\Website\\Controllers"
+  ],
+  "SelectedNode": "\\UserApiApplication\\Controllers\\AccountController.cs",
+  "PreviewInSolutionExplorer": false
+}

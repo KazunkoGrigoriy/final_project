@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]Вебсайт</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <div class="header">
+        <div class="none"></div>
+        <div class="nav">
+            <ul class="items">
+                <li><a asp-controller="Site" asp-action="Index">Главная</a></li>
+                <li><a asp-controller="Site" asp-action="Projects">Проекты</a></li>
+                <li><a asp-controller="Site" asp-action="Services">Услуги</a></li>
+                <li><a asp-controller="Site" asp-action="Blog">Блог</a></li>
+                <li><a asp-controller="Site" asp-action="Contacts">Контакты</a></li>
+            </ul>
+            <div class="text">
+                "РАСШИРЯЕМ ВОЗМОЖНОСТИ"
+            </div>
+        </div>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <footer>
+        <div class="footer">Website</div>
+    </footer>
+</body>
+</html>

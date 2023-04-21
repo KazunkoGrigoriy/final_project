@@ -1,0 +1,62 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication"
+        xmlns:model="clr-namespace:WpfApplication.Model"
+        mc:Ignorable="d" d:DesignWidth="770.298" d:DesignHeight="434.925"
+        WindowState="Maximized">
+
+    <Grid Background="Aqua">
+        <TabControl BorderThickness="0" TabStripPlacement="Left" Margin="5,50,5,5" HorizontalContentAlignment="Left" FontSize="16">
+            <TabItem Header="Рабочий стол" FontSize="16" Height="30" Padding="2,1,0,0" Background="Aqua">
+                <DataGrid x:Name="dataGridRequest" Margin="5,5,5,5" AutoGenerateColumns="False">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="ФИО"
+                                    Binding="{Binding Name}"
+                                    Width="100"></DataGridTextColumn>
+                        <DataGridTextColumn Header="Email"
+                                    Binding="{Binding Email}"
+                                    Width="100">
+                        </DataGridTextColumn>
+                        <DataGridTemplateColumn Header="Статус" Width="120">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <ComboBox SelectionChanged="ComboBox_SelectionChanged">
+                                        <ComboBoxItem Content="{Binding Status}" IsSelected="True"></ComboBoxItem>
+                                        <ComboBoxItem>Получена</ComboBoxItem>
+                                        <ComboBoxItem>В работе</ComboBoxItem>
+                                        <ComboBoxItem>Выполнена</ComboBoxItem>
+                                        <ComboBoxItem>Отменена</ComboBoxItem>
+                                        <ComboBoxItem>Отклонена</ComboBoxItem>
+                                    </ComboBox>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Дата, время"
+                                    Binding="{Binding DateTime}"
+                                    Width="200">
+                        </DataGridTextColumn>
+                        <DataGridTextColumn Header="Текст заявки"
+                                    Binding="{Binding Message}"
+                                    Width="*">
+                        </DataGridTextColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </TabItem>
+            <TabItem Header="Главная" Height="30" Padding="2,1,0,0" Background="Aqua">
+            </TabItem>
+            <TabItem Header="Проекты" Height="30" Padding="2,1,0,0" Background="Aqua">
+            </TabItem>
+            <TabItem Header="Услуги" Height="30" Padding="2,1,0,0" Background="Aqua">
+            </TabItem>
+            <TabItem Header="Блог" Height="30" Padding="2,1,0,0" Background="Aqua">
+            </TabItem>
+            <TabItem Header="Контакты" Height="30" Padding="2,1,0,0" Background="Aqua">
+            </TabItem>
+        </TabControl>
+        <Button x:Name="btnMainLogin" Background="Aqua" BorderBrush="Aqua" Content="Вход" Height="39" Margin="0,5,5,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="119" FontSize="16"/>
+    </Grid>
+    
+</Window>
