@@ -41,13 +41,17 @@ namespace WebApiApplication.Controllers
         [HttpGet("{id}")]
         public Request GetRequestId(int id)
         {
-            return (Request)_context.Requests.Where(request => request.Id == id);
+            return _context.Requests.Where(request => request.Id == id).FirstOrDefault();
         }
 
         [HttpPut]
         public void UpdateRequest(Request request)
-        {            
-            _context.Entry(request).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+        {
+            var changeRequest = _context.Requests.Where(x => x.Id == request.Id).FirstOrDefault();
+            if(changeRequest != null)
+            {
+                changeRequest.Status = request.Status;
+            }
             _context.SaveChanges();
         }
     }

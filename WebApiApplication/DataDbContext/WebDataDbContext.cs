@@ -13,6 +13,5 @@ namespace WebApiApplication.DataDbContext
     {
         public WebDataDbContext(DbContextOptions options) : base(options) { }
         public DbSet<Request> Requests { get; set; }
-
     }
 }

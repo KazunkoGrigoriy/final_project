@@ -11,39 +11,42 @@
     <Grid Background="Aqua">
         <TabControl BorderThickness="0" TabStripPlacement="Left" Margin="5,50,5,5" HorizontalContentAlignment="Left" FontSize="16">
             <TabItem Header="Рабочий стол" FontSize="16" Height="30" Padding="2,1,0,0" Background="Aqua">
-                <DataGrid x:Name="dataGridRequest" Margin="5,5,5,5" AutoGenerateColumns="False">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Header="ФИО"
+                <StackPanel>
+                    <DataGrid x:Name="dataGridRequest" Margin="5,5,5,5" AutoGenerateColumns="False">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ФИО"
                                     Binding="{Binding Name}"
                                     Width="100"></DataGridTextColumn>
-                        <DataGridTextColumn Header="Email"
+                            <DataGridTextColumn Header="Email"
                                     Binding="{Binding Email}"
                                     Width="100">
-                        </DataGridTextColumn>
-                        <DataGridTemplateColumn Header="Статус" Width="120">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <ComboBox SelectionChanged="ComboBox_SelectionChanged">
-                                        <ComboBoxItem Content="{Binding Status}" IsSelected="True"></ComboBoxItem>
-                                        <ComboBoxItem>Получена</ComboBoxItem>
-                                        <ComboBoxItem>В работе</ComboBoxItem>
-                                        <ComboBoxItem>Выполнена</ComboBoxItem>
-                                        <ComboBoxItem>Отменена</ComboBoxItem>
-                                        <ComboBoxItem>Отклонена</ComboBoxItem>
-                                    </ComboBox>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                        </DataGridTemplateColumn>
-                        <DataGridTextColumn Header="Дата, время"
+                            </DataGridTextColumn>
+                            <DataGridTemplateColumn Header="Статус" Width="120">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ComboBox SelectionChanged="ComboBox_SelectionChanged">
+                                            <ComboBoxItem Content="{Binding Status}" IsSelected="True"></ComboBoxItem>
+                                            <ComboBoxItem>Получена</ComboBoxItem>
+                                            <ComboBoxItem>В работе</ComboBoxItem>
+                                            <ComboBoxItem>Выполнена</ComboBoxItem>
+                                            <ComboBoxItem>Отменена</ComboBoxItem>
+                                            <ComboBoxItem>Отклонена</ComboBoxItem>
+                                        </ComboBox>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn Header="Дата, время"
                                     Binding="{Binding DateTime}"
                                     Width="200">
-                        </DataGridTextColumn>
-                        <DataGridTextColumn Header="Текст заявки"
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Текст заявки"
                                     Binding="{Binding Message}"
                                     Width="*">
-                        </DataGridTextColumn>
-                    </DataGrid.Columns>
-                </DataGrid>
+                            </DataGridTextColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <Button x:Name="btnChangeStatus" Content="Изменить статус" Click="btnChangeStatus_Click" IsEnabled="False" Height="25" Width="150" HorizontalAlignment="Right" Margin="5,5,5,5"/>
+                </StackPanel>
             </TabItem>
             <TabItem Header="Главная" Height="30" Padding="2,1,0,0" Background="Aqua">
             </TabItem>
@@ -56,7 +59,8 @@
             <TabItem Header="Контакты" Height="30" Padding="2,1,0,0" Background="Aqua">
             </TabItem>
         </TabControl>
-        <Button x:Name="btnMainLogin" Background="Aqua" BorderBrush="Aqua" Content="Вход" Height="39" Margin="0,5,5,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="119" FontSize="16"/>
+        <Label x:Name="lbUser" Background="Aqua" BorderBrush="Aqua" Height="39" Margin="0,5,100,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="119" FontSize="16"/>
+        <Button x:Name="btnMainLogin" Background="Aqua" BorderBrush="Aqua" Height="39" Content="Вход" Margin="0,5,5,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="119" FontSize="16"/>
     </Grid>
     
 </Window>

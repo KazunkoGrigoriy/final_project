@@ -8,10 +8,11 @@ using WpfApplication.Model;
 
 namespace WpfApplication.Data
 {
-    class DataRequest
+    static class DataRequest
     {
-        private string url = @"https://localhost:44373/webapi";
-        public IEnumerable<Request> GetRequests()
+        private static string url = @"https://localhost:44373/webapi";
+
+        public static IEnumerable<Request> GetRequests()
         {
             HttpClient httpClient = new HttpClient();
             try
@@ -24,10 +25,19 @@ namespace WpfApplication.Data
             }
         }
 
-        public void Update(Request request)
+        public static string Update(Request request)
         {
             HttpClient httpClient = new HttpClient();
-            var update = httpClient.PutAsync(url, new StringContent(JsonConvert.SerializeObject(request))).Result;
+            try
+            {
+                HttpResponseMessage update = httpClient.PutAsync(url, new StringContent(JsonConvert.SerializeObject(request),
+                    Encoding.UTF8,"application/json")).Result;
+                return "Обновление успешно";
+            }
+            catch
+            {
+                return "Отсутствует подключение";
+            }
         }
     }
 }

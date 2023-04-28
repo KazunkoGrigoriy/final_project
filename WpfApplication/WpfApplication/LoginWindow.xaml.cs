@@ -60,5 +60,10 @@ namespace WpfApplication
         {
             return _status;
         }
+
+        public void ResetStatus()
+        {
+            _status = UserRoles.Manager;
+        }
     }
 }
