@@ -21,22 +21,18 @@ namespace Website.Controllers
         {
             return View();
         }
-
         public IActionResult Projects()
         {
             return View();
         }
-
         public IActionResult Sb()
         {
             return View();
         }
-
         public IActionResult Mr()
         {
             return View();
         }
-
         public IActionResult Services()
         {
             return View();
@@ -45,41 +41,34 @@ namespace Website.Controllers
         {
             return View();
         }
-
         public IActionResult C_page1()
         {
             return View();
         }
-
         public IActionResult C_page2()
         {
             return View();
         }
-
         public IActionResult C_page3()
         {
             return View();
         }
-
         public IActionResult C_page4()
         {
             return View();
         }
-
         public IActionResult Contacts()
         {
             return View();
         }
-
         [HttpPost]
         public IActionResult AddRequest(string name, string email, string message)
-        {
-            
+        {            
             var request = new Request()
             {
                 Name = name,
                 Email = email,
-                status = new Status().Received,
+                Status = "Получена",
                 DateTime = DateTime.Now,
                 Message = message
             };

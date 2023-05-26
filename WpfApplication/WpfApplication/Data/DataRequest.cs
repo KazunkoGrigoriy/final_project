@@ -14,30 +14,21 @@ namespace WpfApplication.Data
 
         public static IEnumerable<Request> GetRequests()
         {
-            HttpClient httpClient = new HttpClient();
-            try
+            using(HttpClient httpClient = new HttpClient())
             {
                 var get = httpClient.GetStringAsync(url).Result;
                 return JsonConvert.DeserializeObject<IEnumerable<Request>>(get);
-            } catch
-            {
-                return null;
-            }
+            };
         }
 
         public static string Update(Request request)
         {
-            HttpClient httpClient = new HttpClient();
-            try
+            using(HttpClient httpClient = new HttpClient())
             {
                 HttpResponseMessage update = httpClient.PutAsync(url, new StringContent(JsonConvert.SerializeObject(request),
-                    Encoding.UTF8,"application/json")).Result;
+                        Encoding.UTF8, "application/json")).Result;
                 return "Обновление успешно";
-            }
-            catch
-            {
-                return "Отсутствует подключение";
-            }
+            };
         }
     }
 }

@@ -48,7 +48,6 @@ D:\projects\FinalProject_class\WpfApplication\WpfApplication\bin\Debug\netcoreap
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-D:\projects\FinalProject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.csproj.AssemblyReference.cache
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\LoginWindow.g.cs
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\App.g.cs
@@ -65,3 +64,11 @@ D:\projects\FinalProject_class\WpfApplication\WpfApplication\obj\Debug\netcoreap
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.dll
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.pdb
 D:\projects\FinalProject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.genruntimeconfig.cache
+D:\projects\finalproject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.csproj.AssemblyReference.cache
+D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\WebView2Loader.dll
+D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\WebView2Loader.dll
+D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\WebView2Loader.dll
+D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Microsoft.Web.WebView2.Core.dll
+D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Microsoft.Web.WebView2.WinForms.dll
+D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Microsoft.Web.WebView2.Wpf.dll
+D:\projects\finalproject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication_Content.g.cs

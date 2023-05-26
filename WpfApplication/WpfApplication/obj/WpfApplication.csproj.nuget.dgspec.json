@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\FinalProject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj": {}
+    "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj": {}
   },
   "projects": {
-    "D:\\projects\\FinalProject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj": {
+    "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\FinalProject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
+        "projectUniqueName": "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
         "projectName": "WpfApplication",
-        "projectPath": "D:\\projects\\FinalProject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
+        "projectPath": "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
         "packagesPath": "C:\\Users\\gkazu\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\FinalProject_class\\WpfApplication\\WpfApplication\\obj\\",
+        "outputPath": "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gkazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[6.4.4, )"
             },
+            "Microsoft.Web.WebView2": {
+              "target": "Package",
+              "version": "[1.0.1774.30, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
@@ -67,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

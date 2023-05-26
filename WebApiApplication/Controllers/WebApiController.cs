@@ -25,8 +25,7 @@ namespace WebApiApplication.Controllers
         public void AddRequest(Request request)
         {
             _context.Add(request);
-            _context.SaveChanges();
-        }
+            _context.SaveChanges(); }
 
         [HttpDelete("{id}")]
         public void DeleteRequest(int id)

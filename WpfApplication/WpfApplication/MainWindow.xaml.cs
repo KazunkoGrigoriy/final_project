@@ -19,6 +19,7 @@ using System.Windows.Shapes;
 using WpfApplication.Data;
 using WpfApplication.Model;
 using WpfApplication.UserApp;
+using static System.Net.WebRequestMethods;
 
 namespace WpfApplication
 {
@@ -46,14 +47,29 @@ namespace WpfApplication
             }
             btnMainLogin.Click += btnMainLogin_Click;
             _loginWindow = new LoginWindow();
-            _loginWindow.btnLogin.Click += BtnLogin_Click;   
+            _loginWindow.btnLogin.Click += BtnLogin_Click;
+        }
+        private bool AdminRole()
+        {
+            if (_loginWindow.GetStatus() == UserRoles.Administrator)
+            {
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("Необходимы права администратора");
+                return false;
+            }
         }
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
             if(_loginWindow.GetOk())
             {
+                if(tabItemDesktop.IsSelected)
+                {
+                    dataGridRequest.ItemsSource = _requests = DataRequest.GetRequests();
+                }
                 btnChangeStatus.IsEnabled = true;
-                dataGridRequest.ItemsSource = _requests = DataRequest.GetRequests();
                 if (_loginWindow.GetStatus() == UserRoles.Administrator)
                 {
                     lbUser.Content = "Admin";
@@ -64,21 +80,20 @@ namespace WpfApplication
                     lbUser.Content = "Manager";
                     btnMainLogin.Content = "Выход";
                 }
-            }
-            else
-            {
-                _loginWindow.Close();
+                _loginWindow.Visibility = Visibility.Hidden;
             }
         }
         private void btnMainLogin_Click(object sender, RoutedEventArgs e)
         {
-            if (btnMainLogin.Content.ToString() != "Выход")
+            if (btnMainLogin.Content.ToString() == "Вход")
             {
                 _loginWindow.Show();
+                lbUser.Content = null;
             }
-            else
+            if (btnMainLogin.Content.ToString() == "Выход")
             {
-                _loginWindow.ResetStatus();
+                _loginWindow.ResetRole();
+                btnMainLogin.Content = "Вход";
                 lbUser.Content = null;
             }
         }
@@ -87,13 +102,12 @@ namespace WpfApplication
             ComboBox comboBox = (ComboBox)sender;
             _comboBoxItemText = comboBox.Text;
             _idSelectedItem = dataGridRequest.SelectedIndex;
-            //MessageBox.Show(e.OriginalSource.ToString());
         }
         private void btnChangeStatus_Click(object sender, RoutedEventArgs e)
         {
             if (_loginWindow.GetStatus() == UserRoles.Administrator)
             {
-                Request request = _requests.Where(x => x.Id == _idSelectedItem + 1).FirstOrDefault();
+                Request request = _requests.ElementAt(_idSelectedItem);
                 if (request.Status != null)
                 {
                     if(request.Status != _comboBoxItemText)
@@ -103,11 +117,49 @@ namespace WpfApplication
                     }
                 }
             }
+            else
+            {
+                MessageBox.Show("Необходимы права администратора");
+            }
+        }
+        private void btnEditIndexPage_Click(object sender, RoutedEventArgs e)
+        {
+            if(AdminRole())
+            {
+                indexPage.Source = new Uri("https://localhost:44346/Home/EditIndexPage");
+            }
         }
 
-        private int GetIdRequest(int idDataGrid)
+        private void btnEditProjectsPage_Click(object sender, RoutedEventArgs e)
         {
-            return -1;
+            if (AdminRole())
+            {
+                projectsPage.Source = new Uri("https://localhost:44346/Home/EditProjectsPage");
+            }
+        }
+
+        private void btnEditServicesPage_Click(object sender, RoutedEventArgs e)
+        {
+            if(AdminRole())
+            {
+                servicesPage.Source = new Uri("https://localhost:44346/Home/EditServicesPage");
+            }
+        }
+
+        private void btnEditBlogPage_Click(object sender, RoutedEventArgs e)
+        {
+            if (AdminRole())
+            {
+                blogPage.Source = new Uri("https://localhost:44346/Home/EditBlogPage");
+            }
+        }
+
+        private void btnEditContactsPage_Click(object sender, RoutedEventArgs e)
+        {
+            if (AdminRole())
+            {
+                contactsPage.Source = new Uri("https://localhost:44346/Home/EditContactsPage");
+            }
         }
     }
 }

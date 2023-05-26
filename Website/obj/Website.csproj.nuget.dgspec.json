@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\FinalProject\\Website\\Website.csproj": {}
+    "D:\\projects\\finalproject_class\\Website\\Website.csproj": {}
   },
   "projects": {
-    "D:\\projects\\FinalProject\\Website\\Website.csproj": {
+    "D:\\projects\\finalproject_class\\Website\\Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\FinalProject\\Website\\Website.csproj",
+        "projectUniqueName": "D:\\projects\\finalproject_class\\Website\\Website.csproj",
         "projectName": "Website",
-        "projectPath": "D:\\projects\\FinalProject\\Website\\Website.csproj",
+        "projectPath": "D:\\projects\\finalproject_class\\Website\\Website.csproj",
         "packagesPath": "C:\\Users\\gkazu\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\FinalProject\\Website\\obj\\",
+        "outputPath": "D:\\projects\\finalproject_class\\Website\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gkazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

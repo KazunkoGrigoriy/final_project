@@ -13,23 +13,18 @@ namespace Website.Data
 {
     public class DataRequests : IRequestsData
     {
-        HttpClient httpClient = new HttpClient();
-
         public void AddRequest(Request request)
         {
             string url = @"https://localhost:44373/webapi";
 
-            try
+            using(HttpClient httpClient = new HttpClient())
             {
                 var p = httpClient.PostAsync(
                                     requestUri: url,
                                     content: new StringContent(JsonConvert.SerializeObject(request), Encoding.UTF8,
                                     mediaType: "application/json")
                                     ).Result;
-            } catch
-            {
-
-            }
+            };
         }
     }
 }

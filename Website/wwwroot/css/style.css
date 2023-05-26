@@ -83,7 +83,11 @@ a:hover{
     margin: 10px;
 }
 
-.field__user-data{
+.fielt_text__input {
+    font-size: 15px;
+}
+
+.field__user-data {
     display: flex;
 }
 
@@ -110,6 +114,20 @@ a:hover{
     border-radius: 10px;
     margin-top: 100px;
     margin-right: 300px;
+}
+
+.fieldButtonEdit {
+    display: flex;
+    justify-content: right;
+}
+
+.btnEdit {
+    height: 35px;
+    width: 200px;
+}
+
+.btnSaveIndex {
+    float: right;
 }
 
 .btn:disabled {

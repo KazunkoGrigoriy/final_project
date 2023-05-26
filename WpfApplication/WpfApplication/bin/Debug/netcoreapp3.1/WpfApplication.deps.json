@@ -9,6 +9,7 @@
       "WpfApplication/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.4",
+          "Microsoft.Web.WebView2": "1.0.1774.30",
           "Newtonsoft.Json": "13.0.2"
         },
         "runtime": {
@@ -36,6 +37,39 @@
       },
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Web.WebView2/1.0.1774.30": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.1774.30",
+            "fileVersion": "1.0.1774.30"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.1774.30",
+            "fileVersion": "1.0.1774.30"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.1774.30",
+            "fileVersion": "1.0.1774.30"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/WebView2Loader.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "1.0.1774.30"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.1774.30"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.1774.30"
+          }
+        }
+      },
       "Microsoft.Win32.Registry/4.7.0": {
         "dependencies": {
           "System.Security.AccessControl": "4.7.0",
@@ -177,6 +211,13 @@
       "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
       "path": "microsoft.netcore.platforms/3.1.0",
       "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Web.WebView2/1.0.1774.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yP+GB9V/obn7HUzvwu9w+erJqrtlswlBSfkfGuhanoWkEbIDlZMSI36PZeQq1sQsDNzQzaDxV8cPPCUQ7J7U4w==",
+      "path": "microsoft.web.webview2/1.0.1774.30",
+      "hashPath": "microsoft.web.webview2.1.0.1774.30.nupkg.sha512"
     },
     "Microsoft.Win32.Registry/4.7.0": {
       "type": "package",

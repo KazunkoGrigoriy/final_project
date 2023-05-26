@@ -24,30 +24,35 @@ namespace WpfApplication
 
         private void BtnExit_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            this.Visibility = Visibility.Hidden;
         }
-
+        private void LoginFieldsReset()
+        {
+            textBoxUserName.Text = null;
+            textBoxPassword.Password = null;
+        }
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
             string login = textBoxUserName.Text;
             string password = textBoxPassword.Password;
-            
             using (DataUsers context = new DataUsers())
             {
                 var user = context.Users.FirstOrDefault(t => t.Login == login && t.Password == password);
                 if (user != null)
                 {
                     _ok = true;
-                    
                     if (user.Role == UserRoles.Administrator)
                     {
                         _status = UserRoles.Administrator;
                     }
                     else _status = UserRoles.Manager;
-
-                    this.Close();
+                    LoginFieldsReset();
                 }
-                else MessageBox.Show("Неверные логин или пароль");
+                else
+                {
+                    LoginFieldsReset();
+                    MessageBox.Show("Неверные логин или пароль");
+                }
             }
         }
 
@@ -61,7 +66,7 @@ namespace WpfApplication
             return _status;
         }
 
-        public void ResetStatus()
+        public void ResetRole()
         {
             _status = UserRoles.Manager;
         }
