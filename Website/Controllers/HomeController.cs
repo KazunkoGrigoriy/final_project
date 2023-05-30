@@ -28,10 +28,5 @@ namespace Website.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public void SaveChanged()
-        {
-
-        }
     }
 }

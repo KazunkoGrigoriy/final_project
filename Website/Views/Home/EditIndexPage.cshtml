@@ -5,15 +5,15 @@
 <body class="container__page-index">
     <div class="background">
         <p class="background__text">
-            <input class="fielt_text__input" name="request"/>
+            <input id="editIndexFieldTextInput1" class="fielt_text__input"/>
         </p>
     </div>
     <div class="container">
         <div class="field">
             <div class="field__text">
-                <input class="fielt_text__input" name="requestandquestion"/>
+                <input id="editIndexFieldTextInput2" class="fielt_text__input"/>
             </div>
-            <form action="~/Home/SaveChanged" method="post">
+            <form>
                 <div class="field__user-data">
                     <div class="field__name">
                         <h3>ФИО</h3>
@@ -29,10 +29,10 @@
                     <input name="Message" style="height: 50px; width: 830px; font-size: 15px" id="Message" />
                 </div>
                 <div class="btnSaveIndex">
-                    <button id="btnSendRequest" class="btnEdit" type="submit">Сохранить</button>
+                    <button id="editBtnSendRequest" class="btnEdit" type="button" onclick="SaveChange();">Сохранить</button>
                 </div>
             </form>
         </div>
     </div>
-    <script src="~/js/savechanges.js"></script>
+    <script src="~/js/getDataEditIndex.js"></script>
 </body>

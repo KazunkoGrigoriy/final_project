@@ -4,13 +4,13 @@
 
 <body class="container__page-index">
     <div class="background">
-        <p class="background__text">
+        <p id="indexFieldText1" class="background__text">
             Оставить заявку
         </p>
     </div>
     <div class="container">
         <div class="field">
-            <div class="field__text">
+            <div id="indexFieldText2" class="field__text">
                 Оставить заявку или задать вопрос
             </div>
             <form action="~/Site/AddRequest" method="post">
@@ -28,10 +28,10 @@
                     <h3>Текст сообщения</h3>
                     <input name="Message" style="height: 50px; width: 830px; font-size: 15px" id="Message" />
                 </div>
-                <button id="btnSendRequest" class="btn" type="submit" disabled>Отправить</button>
+                <button id="indexBtnSendRequest" class="btn" type="submit" disabled>Отправить</button>
             </form>
         </div>
     </div>
     <script src="~/js/scripts.js"></script>
-    <script src="~/js/savechanges.js"></script>
+    <script src="~/js/getDataIndex.js"></script>
 </body>
