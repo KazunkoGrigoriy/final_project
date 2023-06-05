@@ -12,21 +12,19 @@ namespace TelegrammBot
         static TelegramBotClient bot;
         static void Main(string[] args)
         {
-            string token = "*****";
+            string token = "6027163971:AAFPLZy5XhNTwLNBVs-tJqCUW2j2jlZE6ak";
 
             bot = new TelegramBotClient(token);
             bot.OnMessage += MessageListener;
             bot.StartReceiving();
             Console.ReadKey();
             bot.StopReceiving();
-
-            //Console.WriteLine("Hello World!");
         }
 
         private static IEnumerable<Request> GetRequests()
         {
             HttpClient httpClient = new HttpClient();
-            string url = @"https://localhost:48373/webapi";
+            string url = @"https://localhost:44373/webapi";
             string json = httpClient.GetStringAsync(url).Result;
             return JsonConvert.DeserializeObject<IEnumerable<Request>>(json);
         }
@@ -34,7 +32,7 @@ namespace TelegrammBot
         private static Request GetRequest(int id)
         {
             HttpClient httpClient = new HttpClient();
-            string url = @"https://localhost:48373/webapi/" + id;
+            string url = @"https://localhost:44373/webapi" + id;
             string json = httpClient.GetStringAsync(url).Result;
             return JsonConvert.DeserializeObject<Request>(json);
         }
@@ -44,25 +42,19 @@ namespace TelegrammBot
 
             if (e.Message.Text == null) return;
 
-            var MessageText = e.Message.Text;
-
-            if(e.Message.Text == "/getrequests")
+            if (e.Message.Text == "/start") //начало работы
             {
-                GetRequests();
+                bot.SendTextMessageAsync(e.Message.Chat.Id, "Приветствую! Мое имя Учебный бот\n" +
+                "Вам доступна команда /getrequests для получения списка заявок");
             }
 
-            int id = 0;
-            try
+            if (e.Message.Text == "/getrequests")
             {
-                id = int.Parse(e.Message.Text.Substring(12, e.Message.Text.Length - 12));
-            } catch
-            {
-                Console.WriteLine("Необходимо ввести id");
-            }
-            
-            if (e.Message.Text == $"/getrequest/{id}")
-            {
-                GetRequest(id);
+                IEnumerable<Request> requests = GetRequests();
+                foreach(var item in requests)
+                {
+                    bot.SendTextMessageAsync(e.Message.Chat.Id, $"{item.Id}, {item.Name}, {item.Status}, {item.Email}, {item.Message}");
+                }
             }
         }
     }

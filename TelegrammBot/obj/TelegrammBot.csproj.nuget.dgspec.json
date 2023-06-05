@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\TelegrammBot\\TelegrammBot\\TelegrammBot\\TelegrammBot.csproj": {}
+    "D:\\projects\\finalproject_class\\TelegrammBot\\TelegrammBot.csproj": {}
   },
   "projects": {
-    "D:\\projects\\TelegrammBot\\TelegrammBot\\TelegrammBot\\TelegrammBot.csproj": {
+    "D:\\projects\\finalproject_class\\TelegrammBot\\TelegrammBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\TelegrammBot\\TelegrammBot\\TelegrammBot\\TelegrammBot.csproj",
+        "projectUniqueName": "D:\\projects\\finalproject_class\\TelegrammBot\\TelegrammBot.csproj",
         "projectName": "TelegrammBot",
-        "projectPath": "D:\\projects\\TelegrammBot\\TelegrammBot\\TelegrammBot\\TelegrammBot.csproj",
+        "projectPath": "D:\\projects\\finalproject_class\\TelegrammBot\\TelegrammBot.csproj",
         "packagesPath": "C:\\Users\\gkazu\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\TelegrammBot\\TelegrammBot\\TelegrammBot\\obj\\",
+        "outputPath": "D:\\projects\\finalproject_class\\TelegrammBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gkazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

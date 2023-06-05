@@ -1,0 +1,25 @@
+﻿@model Website.Views.Home.AddProjectFormModel
+@{
+    Layout = null;
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<div class="project_addForm">
+    <div class="project_addForm__text">
+        <div class="field__name">
+            <h3>Название проекта</h3>
+            <input name="Name" style="height:20px; width:800px; font-size: 15px" id="projectName" />
+        </div>
+        <div class="project_addForm__btnPhoto">
+            <button name="btnAddPhoto"><label for="files">Добавить фото</label></button>
+            <input id="files" type="file" style="display:none"/>
+        </div>
+    </div>
+    <div class="field__message">
+        <h3>Описание проекта</h3>
+        <input name="Message" style="height: 200px; width: 800px; font-size: 15px" id="projectDescription" />
+    </div>
+    <script src="~/js/addProject.js"></script>
+</div>

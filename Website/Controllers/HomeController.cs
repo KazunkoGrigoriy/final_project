@@ -12,7 +12,7 @@ namespace Website.Controllers
         {
             return View();
         }
-        public IActionResult EditProjectsPAge()
+        public IActionResult EditProjectsPage()
         {
             return View();
         }
@@ -25,6 +25,10 @@ namespace Website.Controllers
             return View();
         }
         public IActionResult EditContactsPAge()
+        {
+            return View();
+        }
+        public IActionResult AddProjectForm()
         {
             return View();
         }
