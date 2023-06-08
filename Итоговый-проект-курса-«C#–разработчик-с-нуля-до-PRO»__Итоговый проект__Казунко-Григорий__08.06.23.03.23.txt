@@ -1,0 +1,78 @@
+FinalProject
+
+* Библиотеки:
+
+Microsoft.EntityFramework 6.4.4 - Библиотека для авторизации пользователя в десктопном приложении
+
+Microsoft.EntityFrameworkCore.SqlServer 3.1.1 - Библиотека для использования базы данных
+
+Microsoft.AspNetCore.Mvc.NewtonsoftJson 3.1.0 - Библиотека в проекте вебсайта для обмена информацией с базой данных в json-формате
+
+Newtonsoft.Json 13.0.2 - Библиотека для использования Json
+
+Telegram.Bot.Framework 1.1.4 - Библиотека для создания телеграм бота
+
+Microsoft.EntityFrameworkCore.Tools - 3.1.0 - Библиотека для использования команд для базы данных
+
+
+* Целевая платформа - .NET Core 3.1
+
+
+*Общие папки:
+
+Controllers - содержит контроллер с API-методами для работы с базой данных из внешних приложений
+
+DataDbContext - содержит класс предоставляющий методы работы с базой данных
+
+
+*Панель администратора: 
+
+Настольное приложение WpfApplication.exe
+Пользователи:
+ - Администратор, Логин: admin, Пароль: admin
+ - Менеджер, Логин: manager, Пароль: manager
+
+
+API функции:
+
+ - Get-запросы:
+
+	https://localhost:44373/webapi - возвращает список всех заявок
+
+	https://localhost:44347/webapi/id - возвращает заявку по заданному id
+
+ - Post-запрос:
+
+	https://localhost:44373/webapi/AddRequest - добавление заявки в базу данных
+
+ - Put-запрос:
+
+	https://localhost:44373/webapi/UpdateRequest - изменение статуса заявки
+
+ - Delete-запрос:
+
+	https://localhost:44373/webapi/DeleteRequest/id - удаление заявки по id
+
+Проекты:
+
+ WpfApplication:
+
+ - Get-запрос:
+
+	https://localhost:44373/webapi/GetRequests - возвращает все заявки
+
+ - Put-запрос:
+
+	https://localhost:44373/webapi/Update - обновляет статус заявки
+
+ Website:
+
+ - Post-запрос:
+
+	https://localhost:44373/webapi/AddRequest - добавляет заявку в базу данных
+
+ TelegrammBot:
+
+ - Get-запрос:
+
+	https://localhost:44373/webapi/GetRequests - возвращает список заявок
