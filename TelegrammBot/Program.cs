@@ -29,14 +29,6 @@ namespace TelegrammBot
             return JsonConvert.DeserializeObject<IEnumerable<Request>>(json);
         }
 
-        private static Request GetRequest(int id)
-        {
-            HttpClient httpClient = new HttpClient();
-            string url = @"https://localhost:44373/webapi" + id;
-            string json = httpClient.GetStringAsync(url).Result;
-            return JsonConvert.DeserializeObject<Request>(json);
-        }
-
         private static void MessageListener(object sender, Telegram.Bot.Args.MessageEventArgs e)
         {
 
