@@ -10,7 +10,7 @@ using WebApiApplication.DataDbContext;
 namespace WebApiApplication.Migrations
 {
     [DbContext(typeof(WebDataDbContext))]
-    [Migration("20230419125909_migration1")]
+    [Migration("20231210170639_migration1")]
     partial class migration1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\projects\finalproject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\
 WpfApplication
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-D:\projects\finalproject_class\WpfApplication\WpfApplication\App.xaml
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\App.xaml
 2-216653475
-3699613503
+3435620981
 141648249544
-199-1308277039
+199689597432
 LoginWindow.xaml;MainWindow.xaml;
 
-True
+False
 

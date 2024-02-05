@@ -5538,19 +5538,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gkazu\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\finalproject_class\\Website\\Website.csproj",
+      "projectUniqueName": "D:\\visual studio\\FinalProject\\final_project\\Website\\Website.csproj",
       "projectName": "Website",
-      "projectPath": "D:\\projects\\finalproject_class\\Website\\Website.csproj",
-      "packagesPath": "C:\\Users\\gkazu\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\finalproject_class\\Website\\obj\\",
+      "projectPath": "D:\\visual studio\\FinalProject\\final_project\\Website\\Website.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\visual studio\\FinalProject\\final_project\\Website\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gkazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

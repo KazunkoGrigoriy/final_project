@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj": {}
+    "D:\\visual studio\\FinalProject\\final_project\\WpfApplication\\WpfApplication\\WpfApplication.csproj": {}
   },
   "projects": {
-    "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj": {
+    "D:\\visual studio\\FinalProject\\final_project\\WpfApplication\\WpfApplication\\WpfApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
+        "projectUniqueName": "D:\\visual studio\\FinalProject\\final_project\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
         "projectName": "WpfApplication",
-        "projectPath": "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
-        "packagesPath": "C:\\Users\\gkazu\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\finalproject_class\\WpfApplication\\WpfApplication\\obj\\",
+        "projectPath": "D:\\visual studio\\FinalProject\\final_project\\WpfApplication\\WpfApplication\\WpfApplication.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\visual studio\\FinalProject\\final_project\\WpfApplication\\WpfApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gkazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -5135,19 +5135,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gkazu\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\finalproject_class\\WebApiApplication\\WebApiApplication.csproj",
+      "projectUniqueName": "D:\\visual studio\\FinalProject\\final_project\\WebApiApplication\\WebApiApplication.csproj",
       "projectName": "WebApiApplication",
-      "projectPath": "D:\\projects\\finalproject_class\\WebApiApplication\\WebApiApplication.csproj",
-      "packagesPath": "C:\\Users\\gkazu\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\finalproject_class\\WebApiApplication\\obj\\",
+      "projectPath": "D:\\visual studio\\FinalProject\\final_project\\WebApiApplication\\WebApiApplication.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\visual studio\\FinalProject\\final_project\\WebApiApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gkazu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

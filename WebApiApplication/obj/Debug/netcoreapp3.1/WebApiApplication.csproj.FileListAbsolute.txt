@@ -127,3 +127,46 @@ D:\projects\FinalProject_class\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiA
 D:\projects\FinalProject_class\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.dll
 D:\projects\FinalProject_class\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.pdb
 D:\projects\FinalProject_class\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.genruntimeconfig.cache
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\appsettings.json
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\WebApiApplication.exe
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\WebApiApplication.deps.json
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\WebApiApplication.runtimeconfig.json
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\WebApiApplication.runtimeconfig.dev.json
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\WebApiApplication.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\WebApiApplication.pdb
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.csproj.AssemblyReference.cache
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.AssemblyInfoInputs.cache
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.AssemblyInfo.cs
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.csproj.CoreCompileInputs.cache
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.MvcApplicationPartsAssemblyInfo.cache
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\staticwebassets\WebApiApplication.StaticWebAssets.Manifest.cache
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\staticwebassets\WebApiApplication.StaticWebAssets.xml
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebApiApplication.styles.css
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.RazorTargetAssemblyInfo.cache
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.csproj.CopyComplete
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.dll
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.pdb
+D:\visual studio\FinalProject\final_project\WebApiApplication\obj\Debug\netcoreapp3.1\WebApiApplication.genruntimeconfig.cache

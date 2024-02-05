@@ -72,3 +72,43 @@ D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreap
 D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Microsoft.Web.WebView2.WinForms.dll
 D:\projects\finalproject_class\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Microsoft.Web.WebView2.Wpf.dll
 D:\projects\finalproject_class\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication_Content.g.cs
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.pdb
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\WebView2Loader.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\WebView2Loader.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\WebView2Loader.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\WpfApplication.exe
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\WpfApplication.dll.config
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\WpfApplication.deps.json
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\WpfApplication.runtimeconfig.json
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\WpfApplication.runtimeconfig.dev.json
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\WpfApplication.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\WpfApplication.pdb
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\EntityFramework.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Microsoft.Web.WebView2.Core.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Microsoft.Web.WebView2.WinForms.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Microsoft.Web.WebView2.Wpf.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.csproj.AssemblyReference.cache
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\LoginWindow.g.cs
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\App.g.cs
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication_Content.g.cs
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication_MarkupCompile.cache
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication_MarkupCompile.lref
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\LoginWindow.baml
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.g.resources
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.AssemblyInfoInputs.cache
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.AssemblyInfo.cs
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.csproj.CoreCompileInputs.cache
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.csproj.CopyComplete
+D:\visual studio\FinalProject\final_project\WpfApplication\WpfApplication\obj\Debug\netcoreapp3.1\WpfApplication.genruntimeconfig.cache

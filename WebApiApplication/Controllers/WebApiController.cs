@@ -12,7 +12,7 @@ namespace WebApiApplication.Controllers
     [ApiController]
     [Route("[controller]")]
     //[Authorize]
-    public class WebApiController : ControllerBase
+    public class WebApiController : ControllerBase, IMethods
     {
         private readonly WebDataDbContext _context;
 
@@ -28,10 +28,10 @@ namespace WebApiApplication.Controllers
             _context.SaveChanges();
         }
 
-        [HttpDelete("{id}")]
+        [HttpPost("del/{id}")]
         public void DeleteRequest(int id)
         {
-            _context.Remove(id);
+            _context.RemoveRange(_context.Requests.Where(request => request.Id == id));
             _context.SaveChanges();
         }
 
